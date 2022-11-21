@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    margin-bottom: 200px;
+}
+
+section {
+    height: 200px;
+}
+
+/*Logo and links and header */
+
+
+#logo {
+    font-size: 250%;
+    line-height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    float: left;
+}
+
+#nav-links {
+    font-size: 125%;
+    letter-spacing: 2px;
+}
+
+#nav-links li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+    line-height: 100px;
+}
+
+#nav-links a {
+    text-decoration: none;
+
+}
