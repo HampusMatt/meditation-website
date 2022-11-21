@@ -15,6 +15,9 @@ section {
 
 /*Logo and links and header */
 
+#top {
+    background-color: aqua;
+}
 
 #logo {
     font-size: 250%;
@@ -38,5 +41,8 @@ section {
 
 #nav-links a {
     text-decoration: none;
+}
 
+.home-section {
+    background-color: rgb(70, 221, 70);
 }
