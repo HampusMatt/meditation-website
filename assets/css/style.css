@@ -6,7 +6,12 @@
 
 header {
     height: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-size: 40px;
+    padding-bottom: 10px;
 }
 
 section {
@@ -59,6 +64,8 @@ section {
 #home-desc {
     width: 50%;
     float: right;
+    padding-top: 100px;
+    text-transform: uppercase;
 }
 
 #home-image {
