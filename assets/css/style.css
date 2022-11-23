@@ -45,4 +45,29 @@ section {
 
 .home-section {
     background-color: rgb(70, 221, 70);
+    margin: 50px;
 }
+
+#home-section-1 {
+    background-color: aqua;
+    margin: 50px;
+    height: 400px;
+}
+
+/* Home section*/
+
+#home-desc {
+    width: 50%;
+    float: right;
+}
+
+#home-image {
+    width: 50%;
+    float: left;
+}
+
+#home-picture {
+    width: 600px;
+    height: 400px;
+}
+
