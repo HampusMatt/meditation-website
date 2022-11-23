@@ -78,3 +78,11 @@ section {
     height: 400px;
 }
 
+#meditation-examples {
+    list-style-type: none;
+}
+
+#meditation-examples li {
+    padding-bottom: 10px;
+}
+
