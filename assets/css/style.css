@@ -98,6 +98,16 @@ section {
     height: 500px;
 }
 
+.bg-section {
+    height: 700px;
+    margin: 50px;
+}
+
+.bg-section2 {
+    height: 200px;
+    padding: 100px;
+    margin-bottom: 200px;
+}
 /*meditation lists*/
 
 .meditation-list {
@@ -116,6 +126,22 @@ section {
     border-radius: 50%;
     margin-left: 250px;
     margin-top: 30px;
+}
+
+#contact-form {
+    text-align: center;
+}
+
+.contact-text {
+    text-align: center;
+    margin: 40px;
+}
+
+
+/*pictures*/
+.bg-picture {
+    height: 700px;
+    width: 100%;
 }
 
 /*footer*/
