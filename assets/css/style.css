@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    min-height: 100vh;
+}
+
 header {
     height: 100px;
     margin-bottom: 100px;
@@ -114,3 +118,26 @@ section {
     margin-top: 30px;
 }
 
+/*footer*/
+
+footer {
+    position: sticky;
+    top: 100%;
+    height: 40px;
+}
+
+footer > p {
+    text-align: center;
+    margin: 40px;
+    font-size: 20px;
+}
+
+#socials {
+    text-align: center;
+}
+
+#socials > li {
+    display: inline;
+    font-size: 40px;
+    padding: 5%;
+}
