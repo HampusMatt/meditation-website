@@ -86,3 +86,23 @@ section {
     padding-bottom: 10px;
 }
 
+
+/*get_started sections*/
+.gs-section {
+    background-color: rgb(221, 193, 70);
+    margin: 40px;
+    height: 500px;
+}
+
+/*meditation lists*/
+
+.meditation-list {
+    font-size: 20px;
+    float: left;
+    width: 50%;
+}
+
+.meditation-list > li {
+    padding: 5px;
+}
+
