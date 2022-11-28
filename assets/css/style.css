@@ -25,7 +25,7 @@ section {
 /*Logo and links and header */
 
 #top {
-    background-color: aqua;
+    background-color: #ffa000
 }
 
 #logo {
@@ -34,6 +34,7 @@ section {
     text-transform: uppercase;
     letter-spacing: 6px;
     float: left;
+    margin-left: 50px;
 }
 
 #nav-links {
@@ -53,12 +54,11 @@ section {
 }
 
 .home-section {
-    background-color: rgb(70, 221, 70);
     margin: 50px;
+    background-color: #ffd149;
 }
 
 #home-section-1 {
-    background-color: aqua;
     margin: 50px;
     height: 400px;
 }
@@ -93,9 +93,9 @@ section {
 
 /*get_started sections*/
 .gs-section {
-    background-color: rgb(221, 193, 70);
     margin: 40px;
     height: 500px;
+    background-color: #ffe97d;
 }
 
 .bg-section {
@@ -112,7 +112,8 @@ section {
 .bg-section3 {
     height: 100px;
     padding: 40px;
-    margin: 100px;
+    margin: 100px 50px;
+    background-color: #ffd149;
 }
 /*meditation lists*/
 
@@ -131,7 +132,6 @@ section {
     width: 400px;
     border-radius: 50%;
     margin-left: 250px;
-    margin-top: 30px;
 }
 
 #contact-form {
@@ -174,6 +174,7 @@ section {
 .bg-picture {
     height: 700px;
     width: 100%;
+    object-fit: cover;
 }
 
 /*footer*/
