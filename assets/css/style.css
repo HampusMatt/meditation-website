@@ -20,6 +20,7 @@ header {
 h3 {
     font-size: 40px;
     padding-bottom: 10px;
+    background-color: #ffd149;
 }
 
 section {
@@ -59,7 +60,6 @@ section {
 
 .home-section {
     margin: 50px;
-    background-color: #ffd149;
 }
 
 #home-section-1 {
@@ -99,7 +99,6 @@ section {
 .gs-section {
     margin: 40px;
     height: 700px;
-    background-color: #ffe97d;
 }
 
 .bg-section {
@@ -117,7 +116,6 @@ section {
     height: 100px;
     padding: 40px;
     margin: 100px 50px;
-    background-color: #ffd149;
 }
 /*meditation lists*/
 
@@ -209,6 +207,7 @@ footer > p {
 /*media queries*/
 
 @media screen and (max-width:1300px){
+    
     
     #logo {
         text-align: center;
