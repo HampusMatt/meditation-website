@@ -231,12 +231,14 @@ footer > p {
         clear: both;
         float: left;
         margin-bottom: 50px;
+        margin-left: 170px;
     }
 
     .home-section {
         width: 70%;
         clear: both;
         height: 300px;
+        margin-left: 170px;
     }
 
 }
