@@ -131,12 +131,16 @@ section {
     padding:  15px;
 }
 
+.meditation-images {
+    margin-left: 250px;
+    margin-top: 80px;
+    float: left;
+}
+
 .meditation-pictures {
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    margin-left: 250px;
-    margin-top: 80px;
 }
 
 #contact-form {
@@ -210,6 +214,12 @@ footer > p {
 }
 
 /*media queries*/
+
+@media screen and (max-width: 1400px){
+    .meditation-images {
+        margin: 100px;
+    }
+}
 
 @media screen and (max-width:1300px){
     
