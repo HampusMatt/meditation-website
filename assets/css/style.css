@@ -136,6 +136,7 @@ section {
     width: 400px;
     border-radius: 50%;
     margin-left: 250px;
+    margin-top: 40px;
 }
 
 #contact-form {
@@ -205,3 +206,31 @@ footer > p {
     padding: 5%;
 }
 
+/*media queries*/
+
+@media screen and (max-width:1300px){
+    
+    #logo {
+        text-align: center;
+        float: none;
+    }
+
+    #nav-links {
+        width: 70%;
+        clear: both;
+    }
+
+    #home-desc {
+        width: 70%;
+        clear: both;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .home-section {
+        width: 70%;
+        clear: both;
+        height: 300px;
+    }
+
+}
