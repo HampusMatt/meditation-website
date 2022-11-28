@@ -35,14 +35,14 @@
         <img class="bg-picture" src="/assets/images/pexels-andrew-neel-2312369.jpg" alt="A computer and a cup of coffee on a table">
     </section>
     <div class="bg-section2">
-        <form id="contact-form" action="#" method="post">
+        <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
                 <label for="name"></label>
-                <input type="text" id="name" name="name" placeholder="Full Name">
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
                 <label for="email"></label>
-                <input type="email" id="email" name="email" placeholder="Email Adress">
+                <input type="email" id="email" name="email" placeholder="Email Adress" required>
                 <br>
                 <label for="message"></label>
-                <textarea name="messsage" id="message" cols="90" rows="10" placeholder="Write us a message"></textarea>
+                <textarea name="messsage" id="message" cols="90" rows="10" placeholder="Write us a message" required></textarea>
                 <br>
                 <input id="button" type="button" value="Send">
         </form>
