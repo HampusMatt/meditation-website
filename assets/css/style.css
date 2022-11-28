@@ -98,7 +98,7 @@ section {
 /*get_started sections*/
 .gs-section {
     margin: 40px;
-    height: 500px;
+    height: 700px;
     background-color: #ffe97d;
 }
 
@@ -128,7 +128,7 @@ section {
 }
 
 .meditation-list > li {
-    padding: 5px;
+    padding:  15px;
 }
 
 .meditation-pictures {
@@ -136,7 +136,7 @@ section {
     width: 400px;
     border-radius: 50%;
     margin-left: 250px;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 #contact-form {
