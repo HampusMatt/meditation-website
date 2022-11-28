@@ -135,7 +135,33 @@ section {
 }
 
 #contact-form {
-    text-align: center;
+    max-width: 900px;
+    margin: 5px;
+    border: 3px solid;
+    padding: 5px;
+}
+
+#contact-form > label {
+    display: block;
+}
+
+#contact-form > input {
+    display: block;
+    margin: 20px 10px;
+    border: 2px solid;
+    width: 30%;
+    font-size: 16px;
+}
+
+#contact-form > textarea {
+    border: 2px solid;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#contact-form > #button {
+    width: auto;
+    padding: 5px;
 }
 
 .contact-text {
@@ -173,3 +199,4 @@ footer > p {
     font-size: 40px;
     padding: 5%;
 }
+
