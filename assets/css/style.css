@@ -37,7 +37,7 @@ section {
     height: 200px;
 }
 
-/*Logo and links and header */
+/*Logo and nav-links */
 
 #top {
     background-color: #ffa000
@@ -68,6 +68,8 @@ section {
     text-decoration: none;
 }
 
+/* index_html*/
+
 .section-layout1 {
     margin: 50px;
 }
@@ -76,8 +78,6 @@ section {
     margin: 50px;
     height: 400px;
 }
-
-/* Home section*/
 
 #home-desc {
     width: 50%;
@@ -106,7 +106,8 @@ section {
 }
 
 
-/*get_started sections*/
+/*get_started.html*/
+
 .section-layout2 {
     margin: 40px;
     height: 700px;
@@ -119,12 +120,6 @@ section {
 .section-layout3 {
     height: 700px;
     margin: 50px;
-}
-
-.form-div {
-    height: 200px;
-    padding: 100px;
-    margin-bottom: 200px;
 }
 
 .section-layout4 {
@@ -157,6 +152,14 @@ section {
     border-radius: 50%;
 }
 
+/*Contact.html*/
+
+.form-div {
+    height: 200px;
+    padding: 100px;
+    margin-bottom: 200px;
+}
+
 #contact-form {
     max-width: 900px;
     margin: 5px;
@@ -187,8 +190,8 @@ section {
     margin: 40px;
 }
 
-
 /*pictures*/
+
 .screenwide-pictures {
     height: 700px;
     width: 100%;
@@ -224,12 +227,14 @@ footer > p {
 
 /*media queries*/
 
+/*Breakdown of get_started.html @1400px*/
 @media screen and (max-width: 1400px){
     .meditation-images-div {
         margin: 100px;
     }
 }
 
+/*For medium screens*/
 @media screen and (max-width:1300px){
     
     #logo {
@@ -283,6 +288,7 @@ footer > p {
 
 }
 
+/*For small screens*/
 @media screen and (max-width: 950px){
 
     #nav-links {
@@ -308,6 +314,7 @@ footer > p {
     }
 }
 
+/*For mobile screens*/
 @media screen and (max-width: 480px){
 
     #top {
