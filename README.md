@@ -27,8 +27,8 @@ Here the site provides well recognisable icons for the user to explore more cont
 ## Testing
 
 ### Validator testing
-* 
-* 
+* No erros were found when cheching the HTML with the official [W3C HTML Validator](https://validator.w3.org/)
+* No errors were found when checking the CSS with the official [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ### Accessibility
 This site was tested with LightHouse with the following score 
