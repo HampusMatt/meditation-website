@@ -112,6 +112,10 @@ section {
     height: 700px;
 }
 
+#get-started-title {
+    margin-top: 100px;
+}
+
 .bg-section {
     height: 700px;
     margin: 50px;
@@ -262,6 +266,10 @@ footer > p {
         clear: both;
         height: 300px;
         margin-left: 170px;
+    }
+
+    #get-started-title {
+        margin-top: 200px;
     }
 
     .gs-section {
