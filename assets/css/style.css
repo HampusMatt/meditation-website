@@ -182,11 +182,6 @@ section {
     width: 80%;
 }
 
-#contact-form > #button {
-    width: auto;
-    padding: 5px;
-}
-
 .contact-text {
     text-align: center;
     margin: 40px;
