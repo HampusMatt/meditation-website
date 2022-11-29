@@ -227,7 +227,7 @@ footer > p {
     #logo {
         text-align: center;
         float: none;
-        margin: auto;
+        margin: 0 auto;
     }
 
     #nav-links {
@@ -254,6 +254,19 @@ footer > p {
         clear: both;
         height: 300px;
         margin-left: 170px;
+    }
+
+    .gs-section {
+        width: 100%;
+        clear: both;
+    }
+
+    .meditation-list {
+        width: 90%;
+    }
+
+    .meditation-images {
+        margin-left: 340px;
     }
 
 }
