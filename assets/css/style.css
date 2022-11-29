@@ -68,11 +68,11 @@ section {
     text-decoration: none;
 }
 
-.home-section {
+.section-layout1 {
     margin: 50px;
 }
 
-#home-section-1 {
+#homepage-upper {
     margin: 50px;
     height: 400px;
 }
@@ -86,7 +86,7 @@ section {
     text-transform: uppercase;
 }
 
-#home-image {
+#home-image-div {
     width: 50%;
     float: left;
 }
@@ -107,7 +107,7 @@ section {
 
 
 /*get_started sections*/
-.gs-section {
+.section-layout2 {
     margin: 40px;
     height: 700px;
 }
@@ -116,18 +116,18 @@ section {
     margin-top: 100px;
 }
 
-.bg-section {
+.section-layout3 {
     height: 700px;
     margin: 50px;
 }
 
-.bg-section2 {
+.form-div {
     height: 200px;
     padding: 100px;
     margin-bottom: 200px;
 }
 
-.bg-section3 {
+.section-layout4 {
     height: 100px;
     padding: 40px;
     margin: 100px 50px;
@@ -145,7 +145,7 @@ section {
     padding:  15px;
 }
 
-.meditation-images {
+.meditation-images-div {
     margin-left: 250px;
     margin-top: 80px;
     float: left;
@@ -171,7 +171,7 @@ section {
     display: block;
     margin: 20px 10px;
     border: 2px solid;
-    width: 30%;
+    min-width:50%;
     font-size: 16px;
 }
 
@@ -194,7 +194,7 @@ section {
 
 
 /*pictures*/
-.bg-picture {
+.screenwide-pictures {
     height: 700px;
     width: 100%;
     object-fit: cover;
@@ -230,7 +230,7 @@ footer > p {
 /*media queries*/
 
 @media screen and (max-width: 1400px){
-    .meditation-images {
+    .meditation-images-div {
         margin: 100px;
     }
 }
@@ -249,7 +249,7 @@ footer > p {
         margin-left: 100px;
     }
 
-    #home-image {
+    #home-image-div {
         float: none;
         margin-left: 18.5rem;
     }
@@ -262,7 +262,7 @@ footer > p {
         margin-left: 170px;
     }
 
-    .home-section {
+    .section-layout1 {
         width: 70%;
         clear: both;
         height: 300px;
@@ -273,7 +273,7 @@ footer > p {
         margin-top: 200px;
     }
 
-    .gs-section {
+    .section-layout2 {
         width: 100%;
         clear: both;
     }
@@ -282,7 +282,7 @@ footer > p {
         width: 90%;
     }
 
-    .meditation-images {
+    .meditation-images-div {
         margin-left: 400px;
     }
 
@@ -295,7 +295,7 @@ footer > p {
         margin-left: 50px;
     }
 
-    #home-image {
+    #home-image-div {
         margin-left: 6rem;
     }
 
@@ -303,12 +303,12 @@ footer > p {
         margin-bottom: 80px;
     }
 
-    .home-section {
+    .section-layout1 {
         width: 80%;
         margin: 0 auto;
     }
 
-    .meditation-images {
+    .meditation-images-div {
         margin-left: 250px;
     }
 }
@@ -319,9 +319,13 @@ footer > p {
         height: 200px;
     }
 
+    nav {
+        margin:0;
+    }
+
     #nav-links {
         margin-left: 60px;
-        width: 100%
+        width: 90%
     }
 
     #nav-links > li {
@@ -330,12 +334,12 @@ footer > p {
         margin: 60px 100px;
     }
 
-    #home-section-1, #home-picture {
+    #homepage-upper, #home-picture {
         width: 90%;
         margin: 0;
     }
     
-    #home-image {
+    #home-image-div {
         width: 90%;
         margin: 5%;
     }
@@ -347,15 +351,15 @@ footer > p {
     }
 
     footer {
-        margin-top: 200px;
+        margin-top: 100px;
     }
 
-    .gs-section {
+    .section-layout2 {
         width: 90%;
         margin: 5%;
     }
 
-    .meditation-images {
+    .meditation-images-div {
         width: 90%;
         margin: 5%;
     }
@@ -365,17 +369,17 @@ footer > p {
         height: 200px;
     }
 
-    .bg-section {
+    .section-layout3 {
         width: 90%;
         margin: 5%;
         height: 800px;
     }
 
-    .bg-section3 {
+    .section-layout4 {
         margin-bottom: 200px;
     }
 
-    .bg-picture {
+    .screenwide-pictures {
         width: 90%;
         height: 200px;
         margin-left: 5%;
