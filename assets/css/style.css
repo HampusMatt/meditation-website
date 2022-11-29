@@ -224,7 +224,7 @@ footer > p {
 #socials > li {
     display: inline;
     font-size: 40px;
-    padding: 5%;
+    padding: 5px;
 }
 
 /*media queries*/
@@ -311,4 +311,74 @@ footer > p {
     .meditation-images {
         margin-left: 250px;
     }
+}
+
+@media screen and (max-width: 480px){
+
+    #top {
+        height: 200px;
+    }
+
+    #nav-links {
+        margin-left: 60px;
+        width: 100%
+    }
+
+    #nav-links > li {
+        float: left;
+        line-height: 40px;
+        margin: 60px 100px;
+    }
+
+    #home-section-1, #home-picture {
+        width: 90%;
+        margin: 0;
+    }
+    
+    #home-image {
+        width: 90%;
+        margin: 5%;
+    }
+    #home-desc {
+        margin: 0;;
+        width: 90%;
+        margin: 5%;
+        margin-bottom: 60px;
+    }
+
+    footer {
+        margin-top: 200px;
+    }
+
+    .gs-section {
+        width: 90%;
+        margin: 5%;
+    }
+
+    .meditation-images {
+        width: 90%;
+        margin: 5%;
+    }
+
+    .meditation-pictures {
+        width: 200px;
+        height: 200px;
+    }
+
+    .bg-section {
+        width: 90%;
+        margin: 5%;
+        height: 800px;
+    }
+
+    .bg-section3 {
+        margin-bottom: 200px;
+    }
+
+    .bg-picture {
+        width: 90%;
+        height: 200px;
+        margin-left: 5%;
+    }
+
 }
